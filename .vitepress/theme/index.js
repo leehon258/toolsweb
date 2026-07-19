@@ -4,15 +4,15 @@ import { h } from 'vue'
 
 // ============================================================
 // Giscus 全站评论区配置
-// 仓库：leehon258/toolsweb（公开）| 分类：Announcements
+// 仓库：leehon258/toolsweb（公开）| 分类：General（访客可自由发帖）
 // 参数由 GitHub GraphQL API 反查生成，已可直接使用。
 // 如需更换仓库/分类，去 https://giscus.app 重新生成后替换即可。
 // ============================================================
 const giscusConfig = {
   'data-repo': 'leehon258/toolsweb',
   'data-repo-id': 'R_kgDOTc8uJg',
-  'data-category': 'Announcements',
-  'data-category-id': 'DIC_kwDOTc8uJs4DBf_P',
+  'data-category': 'General',
+  'data-category-id': 'DIC_kwDOTc8uJs4DBf_Q',
   'data-mapping': 'pathname',
   'data-strict': '1',
   'data-reactions-enabled': '1',
