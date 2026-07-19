@@ -36,6 +36,14 @@ export default {
           src: 'https://giscus.app/client.js',
           ...giscusConfig
         })
+      ]),
+      // 全站底部常驻订阅条：每页底部都出现订阅入口
+      'layout-bottom': () => h('div', { class: 'site-footer-subscribe' }, [
+        h('div', { class: 'sfs-inner' }, [
+          h('span', { class: 'sfs-text' }, '订阅守器更新，不错过每一款好工具'),
+          h('a', { class: 'sfs-link', href: '/feed.xml', target: '_blank', rel: 'noopener' }, '📡 RSS'),
+          h('a', { class: 'sfs-link', href: 'https://github.com/leehon258/toolsweb/commits.atom', target: '_blank', rel: 'noopener' }, '🔔 GitHub 流')
+        ])
       ])
     })
   },

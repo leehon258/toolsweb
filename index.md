@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: 守器 ShouQi
-  text: 连接独立开发者与用户的精品工具平台
-  tagline: 守系出品 · 只挖掘被埋没的优质工具，只输出真实客观的深度测评
+  text: 独立开发者工具双边平台
+  tagline: 守系出品 · 让好工具被看见，让真需求被满足
   actions:
     - theme: brand
       text: 浏览全部工具
@@ -24,6 +24,17 @@ features:
     title: 供需精准连接
     details: 需求广场对接用户痛点与开发者能力，助力小众工具迭代与定制
 ---
+
+## 订阅守器更新
+
+<div class="subscribe-box">
+  <p class="subscribe-lead">每周新增 2-3 款工具的深度测评与供需动态。订阅后，不错过任何一次更新：</p>
+  <div class="subscribe-links">
+    <a class="sub-btn sub-rss" href="/feed.xml" target="_blank" rel="noopener">📡 RSS 订阅</a>
+    <a class="sub-btn sub-gh" href="https://github.com/leehon258/toolsweb/commits.atom" target="_blank" rel="noopener">🔔 GitHub 提交流</a>
+    <span class="sub-btn sub-soon">✉️ 邮件订阅（即将开放）</span>
+  </div>
+</div>
 
 ## 本周编辑精选
 

@@ -198,3 +198,92 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* ===== 首页订阅区块 ===== */
+.subscribe-box {
+  margin: 28px 0 8px;
+  padding: 22px 24px;
+  border-radius: var(--card-radius);
+  background: linear-gradient(135deg, rgba(34,197,94,0.10), rgba(37,99,235,0.08));
+  border: 1px solid var(--vp-c-divider);
+}
+.subscribe-lead {
+  margin: 0 0 14px;
+  color: var(--text-sub);
+  font-size: 15px;
+}
+.subscribe-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.sub-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 9px 18px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+.sub-rss {
+  background: #16a34a;
+  color: #fff;
+}
+.sub-rss:hover {
+  background: #15803d;
+  transform: translateY(-2px);
+}
+.sub-gh {
+  background: transparent;
+  color: var(--text-main);
+  border: 1px solid var(--vp-c-divider);
+}
+.sub-gh:hover {
+  border-color: #16a34a;
+  color: #16a34a;
+}
+.sub-soon {
+  background: transparent;
+  color: var(--text-muted);
+  border: 1px dashed var(--vp-c-divider);
+}
+
+/* ===== 全站底部常驻订阅条 ===== */
+.site-footer-subscribe {
+  border-top: 1px solid var(--vp-c-divider);
+  background: var(--card-bg);
+  margin-top: 48px;
+}
+.sfs-inner {
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 18px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+.sfs-text {
+  color: var(--text-sub);
+  font-size: 14px;
+}
+.sfs-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #16a34a;
+  border: 1px solid rgba(34,197,94,0.4);
+  transition: all 0.25s ease;
+}
+.sfs-link:hover {
+  background: #16a34a;
+  color: #fff;
+}

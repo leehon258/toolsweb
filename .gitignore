@@ -21,3 +21,6 @@ Thumbs.db
 
 # private design docs / references — 不公开到仓库
 reference/
+
+# 自动生成的 RSS feed（每次构建由 scripts/gen-feed.mjs 重新产出）
+/public/feed.xml

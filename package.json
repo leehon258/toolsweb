@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "docs:dev": "node scripts/vitepress-run.mjs dev",
-    "docs:build": "node scripts/vitepress-run.mjs build",
-    "docs:build:pages": "node scripts/vitepress-run.mjs build pages",
+    "docs:build": "node scripts/gen-feed.mjs && node scripts/vitepress-run.mjs build",
+    "docs:build:pages": "node scripts/gen-feed.mjs && node scripts/vitepress-run.mjs build pages",
+    "docs:feed": "node scripts/gen-feed.mjs",
     "docs:preview": "node scripts/vitepress-run.mjs preview"
   },
   "devDependencies": {
