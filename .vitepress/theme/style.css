@@ -1,0 +1,170 @@
+/* ===== 全局主题变量 ===== */
+:root {
+  --primary: #2563eb;
+  --primary-light: #3b82f6;
+  --accent: #f59e0b;
+
+  /* 卡片样式 */
+  --card-bg: #ffffff;
+  --card-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  --card-hover-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  --card-radius: 12px;
+
+  /* 标签系统 */
+  --tag-ai: #eef2ff;
+  --tag-ai-text: #4f46e5;
+  --tag-efficiency: #ecfdf5;
+  --tag-efficiency-text: #059669;
+  --tag-privacy: #fef2f2;
+  --tag-privacy-text: #dc2626;
+  --tag-opensource: #fffbeb;
+  --tag-opensource-text: #d97706;
+
+  /* 文字层级 */
+  --text-main: #111827;
+  --text-sub: #4b5563;
+  --text-muted: #9ca3af;
+
+  /* 工具卡片栅格 */
+  --gap: 20px;
+}
+
+/* ===== 暗色模式适配 ===== */
+.dark {
+  --card-bg: #1f2937;
+  --text-main: #f9fafb;
+  --text-sub: #d1d5db;
+  --text-muted: #9ca3af;
+
+  --tag-ai: #312e81;
+  --tag-ai-text: #c7d2fe;
+  --tag-efficiency: #064e3b;
+  --tag-efficiency-text: #6ee7b7;
+  --tag-privacy: #7f1d1d;
+  --tag-privacy-text: #fca5a5;
+  --tag-opensource: #78350f;
+  --tag-opensource-text: #fcd34d;
+
+  --card-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+  --card-hover-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+/* ===== 全局卡片通用组件 ===== */
+.tool-card {
+  border-radius: var(--card-radius);
+  box-shadow: var(--card-shadow);
+  transition: all 0.3s ease;
+  padding: 16px;
+  margin-bottom: 20px;
+  background: var(--card-bg);
+  border: 1px solid var(--vp-c-divider);
+}
+.tool-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--card-hover-shadow);
+}
+.tool-card h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+  color: var(--text-main);
+}
+.tool-card .tool-card-desc {
+  color: var(--text-sub);
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0 0 12px;
+}
+
+/* 工具卡片栅格布局 */
+.tool-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: var(--gap);
+  margin: 24px 0;
+}
+.tool-grid .tool-card {
+  margin-bottom: 0;
+}
+
+/* ===== 标签通用样式 ===== */
+.tag {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  line-height: 1.6;
+}
+.tag-ai { background: var(--tag-ai); color: var(--tag-ai-text); }
+.tag-efficiency { background: var(--tag-efficiency); color: var(--tag-efficiency-text); }
+.tag-privacy { background: var(--tag-privacy); color: var(--tag-privacy-text); }
+.tag-opensource { background: var(--tag-opensource); color: var(--tag-opensource-text); }
+
+/* ===== 评分样式 ===== */
+.score-star {
+  color: var(--accent);
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+/* ===== 页面通用间距 ===== */
+.vp-doc p {
+  line-height: 1.8;
+}
+
+/* ===== 工具详情元信息 ===== */
+.tool-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  padding: 16px;
+  border-radius: var(--card-radius);
+  background: var(--card-bg);
+  border: 1px solid var(--vp-c-divider);
+  margin: 20px 0;
+}
+.tool-meta .meta-item {
+  font-size: 14px;
+}
+.tool-meta .meta-item b {
+  color: var(--text-main);
+}
+.tool-meta .meta-item span {
+  color: var(--text-sub);
+}
+
+.pros-cons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--gap);
+  margin: 20px 0;
+}
+.pros-cons .pros,
+.pros-cons .cons {
+  padding: 16px;
+  border-radius: var(--card-radius);
+  background: var(--card-bg);
+  border: 1px solid var(--vp-c-divider);
+}
+.pros-cons h4 { margin-top: 0; }
+.pros-cons ul { margin: 0; padding-left: 20px; }
+.pros-cons .pros h4 { color: var(--tag-efficiency-text); }
+.pros-cons .cons h4 { color: var(--tag-privacy-text); }
+
+/* ===== 评论区适配 ===== */
+.giscus {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+/* ===== 移动端适配 ===== */
+@media (max-width: 640px) {
+  .tool-grid {
+    grid-template-columns: 1fr;
+  }
+  .pros-cons {
+    grid-template-columns: 1fr;
+  }
+}

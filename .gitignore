@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+
+# VitePress build output & cache
+.vitepress/dist/
+.vitepress/cache/
+.vitepress/*.timestamp-*.mjs
+
+# logs
+*.log
+npm-debug.log*
+
+# editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# local memory (workspace private)
+.workbuddy/
+
+# private design docs / references — 不公开到仓库
+reference/
