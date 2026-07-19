@@ -1,10 +1,15 @@
 import { defineConfig } from 'vitepress'
 
+// base 按部署目标自动切换，实现「子域」与「GitHub Pages」两边并存：
+//   - 默认（superhg.cn 子域 / 本地）：'/'
+//   - GitHub Pages 项目站（leehon258.github.io/toolsweb/）：设 DEPLOY_ENV=pages → '/toolsweb/'
+const base = process.env.DEPLOY_ENV === 'pages' ? '/toolsweb/' : '/'
+
 export default defineConfig({
   // 站点基础信息
   title: '守器 ShouQi | 独立开发者工具双边平台',
   description: '守系出品 · 连接独立开发者与用户的精品工具平台。真实深度测评、水下宝藏挖掘、供需精准对接。',
-  base: '/',
+  base,
   lang: 'zh-CN',
 
   // 排除非站点内容：原始设计方案、Giscus 教程等参考资料不放进构建

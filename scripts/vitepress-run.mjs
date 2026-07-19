@@ -25,7 +25,15 @@ if (fixed !== cwd) {
   }
 }
 
-const args = process.argv.slice(2)
+// 支持形如 `build pages` 的额外目标标记：命中 `pages` 时设 DEPLOY_ENV=pages，
+// 供 config.js 切换 base 为 /toolsweb/（GitHub Pages 项目站），并从传给 vitepress 的参数中剔除。
+const args = process.argv.slice(2).filter((a) => {
+  if (a === 'pages') {
+    process.env.DEPLOY_ENV = 'pages'
+    return false
+  }
+  return true
+})
 const scriptDir = path.dirname(fileURLToPath(import.meta.url))
 const vitepressBin = path.resolve(scriptDir, '../node_modules/vitepress/bin/vitepress.js')
 
