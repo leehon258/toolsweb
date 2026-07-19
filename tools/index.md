@@ -2,7 +2,7 @@
 
 ### 筛选与排序
 
-【分类筛选：AI工具 | 效率工具 | 隐私安全 | 开源替代】
+【分类筛选：交易风控 | 家庭记账 | 运动健康 | 隐私安全 | 本地离线】
 
 【排序方式：最新收录 | 热度优先】
 
@@ -19,20 +19,36 @@
 3. 本列表与首页「最新收录」会自动收录
 :::
 
-暂无工具收录，持续更新中...
-
-## 示例：本地 AI 文档助手
-
 <div class="tool-grid">
 
 <div class="tool-card">
-  <h3>本地 AI 文档助手</h3>
-  <div class="tool-card-desc">离线无联网，隐私安全的文档智能总结工具。纯本地运行，数据不上传。</div>
-  <span class="tag tag-ai">AI工具</span>
-  <span class="tag tag-privacy">隐私安全</span>
-  <span class="tag tag-efficiency">效率办公</span>
+  <h3>守界 TradeGuard</h3>
+  <div class="tool-card-desc">交易者的风控边界 · 本地离线 ATR 动态止盈止损桌面端，把止损止盈从感觉变成纪律。</div>
+  <span class="tag tag-trade">交易风控</span>
+  <span class="tag tag-offline">本地离线</span>
+  <span class="tag tag-desktop">桌面工具</span>
   <p class="score-star">编辑评分：★★★★☆</p>
-  <p><a href="/tools/local-ai-doc-assistant">查看完整测评 →</a></p>
+  <p><a href="/tools/shoujie">查看完整测评 →</a></p>
+</div>
+
+<div class="tool-card">
+  <h3>守财匣 SafeVault</h3>
+  <div class="tool-card-desc">家庭资产的本地保险箱 · 纯本地 AES-256 加密、断网可用、零广告记账，一屏看清真实净资产。</div>
+  <span class="tag tag-finance">家庭记账</span>
+  <span class="tag tag-offline">本地离线</span>
+  <span class="tag tag-privacy">隐私安全</span>
+  <p class="score-star">编辑评分：★★★★★</p>
+  <p><a href="/tools/safevault">查看完整测评 →</a></p>
+</div>
+
+<div class="tool-card">
+  <h3>守身 Seleno</h3>
+  <div class="tool-card-desc">会训你的运动纪律委员 · 不练就滚的硬核自律 APP，多层追命提醒 + 办公软件社死推送。</div>
+  <span class="tag tag-health">运动健康</span>
+  <span class="tag tag-offline">本地离线</span>
+  <span class="tag tag-mobile">移动端工具</span>
+  <p class="score-star">编辑评分：★★★★☆</p>
+  <p><a href="/tools/seleno">查看完整测评 →</a></p>
 </div>
 
 </div>

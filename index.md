@@ -27,14 +27,43 @@ features:
 
 ## 本周编辑精选
 
-<!-- 固定首页核心模块，后续每周更新 5 款精选工具卡片 -->
-暂无更新，持续挖掘优质工具中...
+<div class="tool-grid">
+
+<div class="tool-card">
+  <h3>守财匣 SafeVault</h3>
+  <div class="tool-card-desc">家庭资产的本地保险箱 · 纯本地 AES-256 加密、断网可用、零广告记账。</div>
+  <span class="tag tag-finance">家庭记账</span>
+  <span class="tag tag-privacy">隐私安全</span>
+  <p class="score-star">编辑评分：★★★★★</p>
+  <p><a href="/tools/safevault">查看完整测评 →</a></p>
+</div>
+
+<div class="tool-card">
+  <h3>守界 TradeGuard</h3>
+  <div class="tool-card-desc">交易者的风控边界 · 本地离线 ATR 动态止盈止损桌面端。</div>
+  <span class="tag tag-trade">交易风控</span>
+  <span class="tag tag-desktop">桌面工具</span>
+  <p class="score-star">编辑评分：★★★★☆</p>
+  <p><a href="/tools/shoujie">查看完整测评 →</a></p>
+</div>
+
+<div class="tool-card">
+  <h3>守身 Seleno</h3>
+  <div class="tool-card-desc">会训你的运动纪律委员 · 不练就滚的硬核自律 APP。</div>
+  <span class="tag tag-health">运动健康</span>
+  <span class="tag tag-mobile">移动端工具</span>
+  <p class="score-star">编辑评分：★★★★☆</p>
+  <p><a href="/tools/seleno">查看完整测评 →</a></p>
+</div>
+
+</div>
 
 ## 最新收录工具
 
-<!-- 按更新时间倒序展示，自动渲染最新 Markdown 工具 -->
-暂无收录，敬请期待...
+- [守界 TradeGuard](/tools/shoujie) — 交易者的本地风控桌面端，ATR 动态止盈止损
+- [守财匣 SafeVault](/tools/safevault) — 本地加密家庭记账，断网可用、零广告
+- [守身 Seleno](/tools/seleno) — 硬核运动自律 APP，多层追命提醒 + 社死推送
 
 ## 热门工具标签
 
-AI工具 / 效率办公 / 隐私安全 / 开源免费 / 桌面工具 / 移动端工具
+交易风控 / 家庭记账 / 运动健康 / 隐私安全 / 本地离线 / 桌面工具 / 移动端工具

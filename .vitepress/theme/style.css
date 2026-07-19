@@ -19,6 +19,18 @@
   --tag-privacy-text: #dc2626;
   --tag-opensource: #fffbeb;
   --tag-opensource-text: #d97706;
+  --tag-trade: #eff6ff;
+  --tag-trade-text: #2563eb;
+  --tag-finance: #ecfeff;
+  --tag-finance-text: #0891b2;
+  --tag-health: #f0fdf4;
+  --tag-health-text: #16a34a;
+  --tag-desktop: #f1f5f9;
+  --tag-desktop-text: #475569;
+  --tag-mobile: #fff7ed;
+  --tag-mobile-text: #ea580c;
+  --tag-offline: #faf5ff;
+  --tag-offline-text: #7c3aed;
 
   /* 文字层级 */
   --text-main: #111827;
@@ -44,6 +56,18 @@
   --tag-privacy-text: #fca5a5;
   --tag-opensource: #78350f;
   --tag-opensource-text: #fcd34d;
+  --tag-trade: #1e3a8a;
+  --tag-trade-text: #93c5fd;
+  --tag-finance: #164e63;
+  --tag-finance-text: #67e8f9;
+  --tag-health: #14532d;
+  --tag-health-text: #86efac;
+  --tag-desktop: #334155;
+  --tag-desktop-text: #cbd5e1;
+  --tag-mobile: #7c2d12;
+  --tag-mobile-text: #fdba74;
+  --tag-offline: #4c1d95;
+  --tag-offline-text: #d8b4fe;
 
   --card-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
   --card-hover-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
@@ -100,6 +124,12 @@
 .tag-efficiency { background: var(--tag-efficiency); color: var(--tag-efficiency-text); }
 .tag-privacy { background: var(--tag-privacy); color: var(--tag-privacy-text); }
 .tag-opensource { background: var(--tag-opensource); color: var(--tag-opensource-text); }
+.tag-trade { background: var(--tag-trade); color: var(--tag-trade-text); }
+.tag-finance { background: var(--tag-finance); color: var(--tag-finance-text); }
+.tag-health { background: var(--tag-health); color: var(--tag-health-text); }
+.tag-desktop { background: var(--tag-desktop); color: var(--tag-desktop-text); }
+.tag-mobile { background: var(--tag-mobile); color: var(--tag-mobile-text); }
+.tag-offline { background: var(--tag-offline); color: var(--tag-offline-text); }
 
 /* ===== 评分样式 ===== */
 .score-star {

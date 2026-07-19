@@ -14,4 +14,4 @@
 
 ## 推荐阅读
 
-- [本地 AI 文档助手](/tools/local-ai-doc-assistant) — 离线、隐私安全的文档总结工具
+- [守界 TradeGuard](/tools/shoujie) · [守财匣 SafeVault](/tools/safevault) · [守身 Seleno](/tools/seleno) — 守系出品的三款本地优先工具，平台首批收录
