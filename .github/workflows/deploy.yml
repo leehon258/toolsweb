@@ -1,8 +1,8 @@
 name: Deploy VitePress site to Pages
 
+# 主部署已迁移至 superhg.cn 子域（base 改为 / 后 GitHub Pages 路径失效）。
+# 本工作流仅保留手动触发，不再随 push 自动发布到 GitHub Pages。
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:

@@ -2,9 +2,9 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   // 站点基础信息
-  title: '小众工具集 | 独立开发者精品测评平台',
-  description: '挖掘小众优质独立工具，连接用户与独立开发者，提供真实深度的工具测评与需求对接',
-  base: '/toolsweb/',
+  title: '守器 ShouQi | 独立开发者工具双边平台',
+  description: '守系出品 · 连接独立开发者与用户的精品工具平台。真实深度测评、水下宝藏挖掘、供需精准对接。',
+  base: '/',
   lang: 'zh-CN',
 
   // 排除非站点内容：原始设计方案、Giscus 教程等参考资料不放进构建
@@ -13,12 +13,12 @@ export default defineConfig({
   // 头部 SEO 全局配置
   head: [
     ['link', { rel: 'icon', href: '/images/favicon.svg' }],
-    ['meta', { name: 'keywords', content: '独立工具,效率工具,AI工具,小众软件,独立开发者,工具测评' }],
+    ['meta', { name: 'keywords', content: '独立工具,效率工具,AI工具,小众软件,独立开发者,工具测评,守器,守系出品' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
-    ['meta', { property: 'og:site_name', content: '小众工具精品测评平台' }],
+    ['meta', { property: 'og:site_name', content: '守器 ShouQi' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:title', content: '小众工具集 | 独立开发者精品测评平台' }],
-    ['meta', { property: 'og:description', content: '挖掘小众优质独立工具，连接用户与独立开发者，提供真实深度的工具测评与需求对接' }]
+    ['meta', { property: 'og:title', content: '守器 ShouQi | 独立开发者工具双边平台' }],
+    ['meta', { property: 'og:description', content: '守系出品 · 连接独立开发者与用户的精品工具平台。真实深度测评、水下宝藏挖掘、供需精准对接。' }]
   ],
 
   // 顶部导航栏（完整产品架构，预留二期入口）
@@ -80,13 +80,13 @@ export default defineConfig({
 
     // 社交链接（页脚）
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/' }
+      { icon: 'github', link: 'https://github.com/leehon258/toolsweb' }
     ],
 
     // 页脚信息
     footer: {
-      message: '用心挖掘每一款被埋没的独立工具',
-      copyright: '2025 小众工具测评平台 | 专注独立开发者精品工具挖掘'
+      message: '守系出品 · 数据自主，隐私可控',
+      copyright: '2025 守器 ShouQi | 守系出品'
     },
 
     // 明暗主题切换

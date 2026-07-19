@@ -2,9 +2,9 @@
 layout: home
 
 hero:
-  name: 小众独立工具精选
+  name: 守器 ShouQi
   text: 连接独立开发者与用户的精品工具平台
-  tagline: 只挖掘被埋没的优质工具，只输出真实客观的深度测评
+  tagline: 守系出品 · 只挖掘被埋没的优质工具，只输出真实客观的深度测评
   actions:
     - theme: brand
       text: 浏览全部工具
